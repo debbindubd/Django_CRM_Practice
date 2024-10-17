@@ -3,9 +3,11 @@
 ### Instruction for running this Django Project
 ```
 open git bash in desktop
-git clone https://github.com/debbairagi/DjangoCRM.git
-cd DjangoCRM
+git clone [https://github.com/debbairagi/DjangoCRM.git](https://github.com/debbindubd/Django_CRM_Practice.git)
+cd Django_CRM_Practice
+python -m venv crmenv
 source crmenv/Scripts/activate
+pip install -r requirements.txt
 cd crmproject
 python manage.py runserver
 ```
